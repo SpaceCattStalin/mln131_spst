@@ -1,0 +1,764 @@
+[
+  {
+    "id": "e_1",
+    "title": "Tiếng Gõ Cửa Buổi Tối",
+    "text": [
+      "Bác hàng xóm gõ cửa xin trú nhờ vì khu phố vừa có kiểm tra tạm trú bất ngờ.",
+      " Bạn có nên giúp không?"
+    ],
+    "image": "/assets/e1.png",
+    "role": "any",
+    "left": {
+      "text": "Cho bác ở tạm",
+      "effects": { "kinhTe": 0, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Khuyên bác sang chỗ khác",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_2",
+    "title": "Gói Tài Liệu Lạ",
+    "text": [
+      "Một gói tài liệu bị bỏ nhầm trong hòm thư nhà bạn.",
+      " Hình như là tài liệu tuyên truyền cộng đồng của khu phố."
+    ],
+    "image": "/assets/e2.png",
+    "role": "any",
+    "left": {
+      "text": "Giữ lại đọc kỹ",
+      "effects": { "kinhTe": 0, "doanKet": 1, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Trả lại tổ dân phố",
+      "effects": { "kinhTe": 0, "doanKet": 0, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_3",
+    "title": "Kiểm Tra Tạm Trú",
+    "text": [
+      "Công an khu vực ghé nhà kiểm tra thông tin tạm trú.",
+      " Thái độ nghiêm nhưng đúng quy định."
+    ],
+    "image": "/assets/e3.png",
+    "role": "any",
+    "left": {
+      "text": "Hợp tác đầy đủ",
+      "effects": { "kinhTe": 0, "doanKet": 0, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Tỏ ra khó chịu",
+      "effects": { "kinhTe": 0, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_4",
+    "title": "Camera Trước Nhà",
+    "text": [
+      "Hàng xóm đề nghị lắp camera chung để tăng an ninh khu phố.",
+      " Bạn thấy hợp lý nhưng hơi tốn tiền."
+    ],
+    "image": "/assets/e4.png",
+    "role": "any",
+    "left": {
+      "text": "Góp tiền lắp camera",
+      "effects": { "kinhTe": -1, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Từ chối",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_5",
+    "title": "Tin Đồn Trong Chung Cư",
+    "text": [
+      "Cư dân bàn tán về bác hàng xóm.",
+      " Người khen hết mình, kẻ chê đủ thứ."
+    ],
+    "image": "/assets/e5.png",
+    "role": "any",
+    "left": {
+      "text": "Tin bác là người tốt",
+      "effects": { "kinhTe": 0, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Tránh xa bác",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_6",
+    "title": "Lời Mời Làm Thêm",
+    "text": [
+      "Một gia đình khá giả mời bạn làm việc nhà cuối tuần.",
+      " Lương cao nhưng mất thời gian nghỉ."
+    ],
+    "image": "/assets/e6.png",
+    "role": "any",
+    "left": {
+      "text": "Nhận việc",
+      "effects": { "kinhTe": 2, "doanKet": -1, "niemTin": 0 }
+    },
+    "right": {
+      "text": "Từ chối",
+      "effects": { "kinhTe": -1, "doanKet": 1, "niemTin": 1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_7",
+    "title": "Giá Điện Tăng",
+    "text": [
+      "Giá điện tăng khiến hoá đơn tăng mạnh.",
+      " Bạn phải điều chỉnh chi tiêu."
+    ],
+    "image": "/assets/e7.png",
+    "role": "any",
+    "left": {
+      "text": "Tiết kiệm điện",
+      "effects": { "kinhTe": 2, "doanKet": -1, "niemTin": 0 }
+    },
+    "right": {
+      "text": "Dùng như cũ",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_8",
+    "title": "Vay Mua Xe Máy",
+    "text": ["Có chương trình mua xe trả góp.", " Xe hiện tại đã cũ."],
+    "image": "/assets/e8.png",
+    "role": "any",
+    "left": {
+      "text": "Vay mua xe mới",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Dùng xe cũ",
+      "effects": { "kinhTe": 1, "doanKet": 0, "niemTin": 0 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_9",
+    "title": "Góp Quỹ Từ Thiện",
+    "text": ["Khu phố đang quyên góp giúp hộ nghèo.", " Bạn được mời đóng góp."],
+    "image": "/assets/e9.png",
+    "role": "any",
+    "left": {
+      "text": "Góp một ít",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không góp",
+      "effects": { "kinhTe": 1, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_10",
+    "title": "Mua Đồ Online",
+    "text": [
+      "Một món đồ giảm giá mạnh.",
+      " Không chắc chất lượng có tốt không."
+    ],
+    "image": "/assets/e10.png",
+    "role": "any",
+    "left": {
+      "text": "Mua thử",
+      "effects": { "kinhTe": -1, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không mua",
+      "effects": { "kinhTe": 1, "doanKet": 0, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_11",
+    "title": "Con Trai Áp Lực Học Thêm",
+    "text": ["Con trai than rằng lịch học thêm quá tải."],
+    "image": "/assets/son.png",
+    "role": "any",
+    "left": {
+      "text": "Cho nghỉ bớt",
+      "effects": { "kinhTe": 1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Giữ nguyên",
+      "effects": { "kinhTe": -1, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_12",
+    "title": "Con Gái Nghiện Điện Thoại",
+    "text": ["Con gái dành quá nhiều thời gian cho mạng xã hội."],
+    "image": "/assets/daughter.png",
+    "role": "any",
+    "left": {
+      "text": "Giới hạn thời gian",
+      "effects": { "kinhTe": 0, "doanKet": -1, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Tự quản lý",
+      "effects": { "kinhTe": 0, "doanKet": 1, "niemTin": -2 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_13",
+    "title": "Việc Nhà Mất Cân Bằng",
+    "text": [
+      "Gần đây việc nhà toàn dồn về một người.",
+      " Không khí bắt đầu căng thẳng."
+    ],
+    "image": "/assets/e13.png",
+    "role": "any",
+    "left": {
+      "text": "Phân chia lại",
+      "effects": { "kinhTe": 0, "doanKet": 3, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Ai rảnh thì làm",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_14",
+    "title": "Chó Sủa Suốt Đêm",
+    "text": ["Con chó sủa cả đêm khiến hàng xóm khó chịu."],
+    "image": "/assets/e14.png",
+    "role": "any",
+    "left": {
+      "text": "Đưa đi khám",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Kệ nó",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_15",
+    "title": "Mèo Làm Vỡ Bình",
+    "text": ["Mèo làm vỡ đồ kỷ niệm trong nhà."],
+    "image": "/assets/e15.png",
+    "role": "any",
+    "left": {
+      "text": "Tha lỗi, dọn dẹp",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Mắng mèo",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_16",
+    "title": "Ngập Nước Cuối Tuần",
+    "text": ["Cơn mưa lớn khiến con hẻm bị ngập nhẹ."],
+    "image": "/assets/e16.png",
+    "role": "any",
+    "left": {
+      "text": "Ra phụ thông cống",
+      "effects": { "kinhTe": 0, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Ở nhà",
+      "effects": { "kinhTe": 0, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_17",
+    "title": "Lỗi Điện Trong Nhà",
+    "text": ["Điện chập chờn liên tục.", " Thợ báo giá sửa khá cao."],
+    "image": "/assets/e17.png",
+    "role": "any",
+    "left": {
+      "text": "Sửa ngay",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Để thêm vài tuần",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_18",
+    "title": "Nợ Thẻ Tín Dụng",
+    "text": ["Thẻ tín dụng đến hạn thanh toán."],
+    "image": "/assets/e18.png",
+    "role": "any",
+    "left": {
+      "text": "Trả đủ",
+      "effects": { "kinhTe": -2, "doanKet": 0, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Trả tối thiểu",
+      "effects": { "kinhTe": 1, "doanKet": 0, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_19",
+    "title": "Sinh Hoạt Tổ Dân Phố",
+    "text": ["Khu dân cư họp định kỳ."],
+    "image": "/assets/e19.png",
+    "role": "any",
+    "left": {
+      "text": "Tham gia",
+      "effects": { "kinhTe": 0, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không tham gia",
+      "effects": { "kinhTe": 0, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_20",
+    "title": "Con Trai Muốn Chơi Game",
+    "text": ["Con trai xin chơi game buổi tối."],
+    "image": "/assets/son.png",
+    "role": "any",
+    "left": {
+      "text": "Cho chơi nhưng giới hạn",
+      "effects": { "kinhTe": 0, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Cấm chơi",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_21",
+    "title": "Con Gái Gia Nhập CLB",
+    "text": ["Con gái muốn tham gia CLB âm nhạc."],
+    "image": "/assets/daughter.png",
+    "role": "any",
+    "left": {
+      "text": "Cho tham gia",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Không đồng ý",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_22",
+    "title": "Áp Lực Việc Làm",
+    "text": ["Công ty yêu cầu tăng ca."],
+    "image": "/assets/e22.png",
+    "role": "any",
+    "left": {
+      "text": "Làm thêm",
+      "effects": { "kinhTe": 2, "doanKet": -2, "niemTin": -1 }
+    },
+    "right": {
+      "text": "Từ chối",
+      "effects": { "kinhTe": -2, "doanKet": 2, "niemTin": 1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_23",
+    "title": "Giá Xăng Tăng",
+    "text": ["Giá xăng tăng khiến chi phí đi lại đội lên."],
+    "image": "/assets/e23.png",
+    "role": "any",
+    "left": {
+      "text": "Vẫn đi xe máy",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": 0 }
+    },
+    "right": {
+      "text": "Chuyển sang xe buýt",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": 1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_24",
+    "title": "Ngày Chủ Nhật Xanh",
+    "text": ["Khu phố tổ chức dọn vệ sinh môi trường."],
+    "image": "/assets/e24.png",
+    "role": "any",
+    "left": {
+      "text": "Tham gia",
+      "effects": { "kinhTe": 0, "doanKet": 2, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Không tham gia",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_25",
+    "title": "Nhà Bên Mở Nhạc Lớn",
+    "text": ["Hàng xóm mở nhạc lớn lúc tối."],
+    "image": "/assets/e25.png",
+    "role": "any",
+    "left": {
+      "text": "Nhắc nhẹ",
+      "effects": { "kinhTe": 0, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Phàn nàn lên nhóm cư dân",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_26",
+    "title": "Mèo Cào Sofa",
+    "text": ["Mèo làm trầy bộ sofa mới."],
+    "image": "/assets/cat.png",
+    "role": "any",
+    "left": {
+      "text": "Mua miếng cào",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Phạt mèo",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_27",
+    "title": "Chó Đến Hạn Tiêm Phòng",
+    "text": ["Đến lịch tiêm phòng cho chó."],
+    "image": "/assets/e14.png",
+    "role": "any",
+    "left": {
+      "text": "Tiêm đầy đủ",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không tiêm",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_28",
+    "title": "Giá Thực Phẩm Tăng",
+    "text": ["Giá thực phẩm tăng mạnh."],
+    "image": "/assets/e28.png",
+    "role": "any",
+    "left": {
+      "text": "Ăn tiết kiệm",
+      "effects": { "kinhTe": 2, "doanKet": -1, "niemTin": 0 }
+    },
+    "right": {
+      "text": "Giữ khẩu phần",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_29",
+    "title": "Tranh Cãi Nhỏ",
+    "text": ["Không khí trong nhà hơi căng thẳng."],
+    "image": "/assets/e29.png",
+    "role": "any",
+    "left": {
+      "text": "Ngồi lại nói chuyện",
+      "effects": { "kinhTe": 0, "doanKet": 3, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Ai về phòng nấy",
+      "effects": { "kinhTe": 0, "doanKet": -3, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_30",
+    "title": "Vợ Muốn Học Nghề",
+    "text": ["Vợ muốn học nghề mới để đổi việc."],
+    "image": "/assets/mother.png",
+    "role": "father",
+    "left": {
+      "text": "Cho học",
+      "effects": { "kinhTe": -2, "doanKet": 2, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Khuyên tiết kiệm",
+      "effects": { "kinhTe": 2, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_31",
+    "title": "Chồng Muốn Đổi Việc",
+    "text": ["Chồng muốn chuyển sang công việc mới áp lực hơn."],
+    "image": "/assets/father.png",
+    "role": "mother",
+    "left": {
+      "text": "Ủng hộ",
+      "effects": { "kinhTe": 3, "doanKet": -1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Khuyên giữ việc cũ",
+      "effects": { "kinhTe": -1, "doanKet": 0, "niemTin": 1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_32",
+    "title": "Con Trai Muốn Mua Skin Game",
+    "text": ["Con trai xin tiền mua skin trong game."],
+    "image": "/assets/son.png",
+    "role": "any",
+    "left": {
+      "text": "Cho mua",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không mua",
+      "effects": { "kinhTe": 1, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_33",
+    "title": "Con Gái Muốn Theo Trend",
+    "text": ["Con gái muốn mua bộ đồ thời trang mới."],
+    "image": "/assets/daughter.png",
+    "role": "any",
+    "left": {
+      "text": "Cho mua",
+      "effects": { "kinhTe": -2, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Từ chối",
+      "effects": { "kinhTe": 1, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_34",
+    "title": "Họ Hàng Xin Hỗ Trợ",
+    "text": ["Họ hàng gặp khó khăn xin giúp đỡ."],
+    "image": "/assets/e34.png",
+    "role": "any",
+    "left": {
+      "text": "Gửi một ít",
+      "effects": { "kinhTe": -2, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Từ chối",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_35",
+    "title": "Họp Phụ Huynh",
+    "text": ["Trường mở họp phụ huynh, nhưng con trai không muốn bạn đi."],
+    "image": "/assets/son.png",
+    "role": "any",
+    "left": {
+      "text": "Đi họp",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không đi",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_36",
+    "title": "Mua Laptop Cho Con",
+    "text": ["Con trai cần laptop để học."],
+    "image": "/assets/son.png",
+    "role": "any",
+    "left": {
+      "text": "Vay mua máy mới",
+      "effects": { "kinhTe": -3, "doanKet": 1, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Dùng máy cũ",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_37",
+    "title": "Khóa Học Online Sức Khỏe",
+    "text": ["Mua học khóa online chăm sóc sức khỏe tinh thần."],
+    "image": "/assets/e10.png",
+    "role": "any",
+    "left": {
+      "text": "Mua",
+      "effects": { "kinhTe": -1, "doanKet": 2, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Không cần thiết",
+      "effects": { "kinhTe": 1, "doanKet": -2, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_38",
+    "title": "Tin Giả Trên Mạng",
+    "text": ["Con gái chia sẻ một tin giả trên mạng."],
+    "image": "/assets/daughter.png",
+    "role": "any",
+    "left": {
+      "text": "Giải thích cho con",
+      "effects": { "kinhTe": 0, "doanKet": 2, "niemTin": 2 }
+    },
+    "right": {
+      "text": "La mắng",
+      "effects": { "kinhTe": 0, "doanKet": -2, "niemTin": -2 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_39",
+    "title": "Khám Sức Khỏe Định Kỳ",
+    "text": ["Công ty có chương trình khám sức khỏe miễn phí."],
+    "image": "/assets/e39.png",
+    "role": "any",
+    "left": {
+      "text": "Đi khám",
+      "effects": { "kinhTe": -1, "doanKet": 1, "niemTin": 1 }
+    },
+    "right": {
+      "text": "Không đi",
+      "effects": { "kinhTe": 1, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "e_40",
+    "title": "Du Lịch Gia Đình",
+    "text": ["Gia đình muốn đi du lịch cuối tuần."],
+    "image": "/assets/e40.png",
+    "role": "any",
+    "left": {
+      "text": "Đi du lịch",
+      "effects": { "kinhTe": -3, "doanKet": 3, "niemTin": 2 }
+    },
+    "right": {
+      "text": "Hoãn lại",
+      "effects": { "kinhTe": 2, "doanKet": -1, "niemTin": -1 }
+    },
+    "next": null
+  },
+
+  {
+    "id": "END_KINHTE",
+    "title": "Khủng Hoảng Tài Chính Gia Đình",
+    "role": "any",
+    "image": "/assets/ed1.png",
+    "text": [
+      "Những áp lực chi tiêu và biến động kinh tế đã khiến tài chính gia đình cạn kiệt.",
+      " Dù cố gắng, gia đình buộc phải tạm dừng hành trình để ổn định lại kinh tế."
+    ],
+    "left": null,
+    "right": null,
+    "next": null
+  },
+
+  {
+    "id": "END_DOANKET",
+    "title": "Gia Đình Rạn Nứt",
+    "role": "any",
+    "image": "/assets/ed2.png",
+    "text": [
+      "Những mâu thuẫn nhỏ tích tụ, khác biệt thế hệ và áp lực thời đại khiến sự gắn kết gia đình tan vỡ.",
+      " Không còn tiếng cười chung bàn ăn, chỉ còn khoảng cách."
+    ],
+    "left": null,
+    "right": null,
+    "next": null
+  },
+
+  {
+    "id": "END_NIEMTIN",
+    "title": "Niềm Tin Sụp Đổ",
+    "role": "any",
+    "image": "/assets/ed3.png",
+    "text": [
+      "Nhịp sống nhanh, áp lực học hành và việc làm bào mòn tinh thần gia đình.",
+      " Khi niềm tin chung không còn, gia đình không thể tiến bước."
+    ],
+    "left": null,
+    "right": null,
+    "next": null
+  },
+
+  {
+    "id": "END_EVENT_LIMIT",
+    "title": "Một Năm Ý Nghĩa",
+    "role": "any",
+    "image": "/assets/ed.png",
+    "text": [
+      "Gia đình bạn đã trải qua 20 sự kiện — vui có, buồn có, thử thách có.",
+      " Tất cả tạo nên một năm đầy dấu ấn, giúp gia đình hiểu nhau hơn."
+    ],
+    "left": null,
+    "right": null,
+    "next": null
+  }
+]

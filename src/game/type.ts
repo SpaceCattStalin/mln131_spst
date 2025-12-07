@@ -1,0 +1,41 @@
+import type { EventLinkedList } from "./linkedList";
+
+export type Choice = {
+    text: string,
+    effects: Record<string, number>,
+    jumpTo?: string;
+};
+
+export type EventNode = {
+    id: string,
+    role: string,
+    title: string,
+    text: string | string[],
+    image?: string,
+    left: Choice | null,
+    right: Choice | null,
+    next: EventNode | null;
+};
+
+export type GameState = {
+    currentNode: EventNode | null;
+    list: EventLinkedList;
+    seen: Set<string>;
+    role: "father" | "mother" | "any";
+    gameEnd: boolean;
+    //gameStart: boolean;
+    //setGameStart: (value: boolean) => void
+    eventCount: number;
+
+    stats: {
+        kinhTe: number;
+        doanKet: number;
+        niemTin: number;
+    };
+
+    setRole: (role: "father" | "mother") => void;
+    addSeen: (node: EventNode) => void;
+    applyChoice: (choice: Choice | null) => void;
+    resetGame: () => void;
+};
+
