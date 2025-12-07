@@ -18,7 +18,7 @@ export default function Home() {
       <ContentSection />
       <FamilyConceptSection />
       <Minigame />
-      <GameCard />
+      {/* <GameCard /> */}
       <MemoryGame />
       <VideoSection />
       <Footer />
